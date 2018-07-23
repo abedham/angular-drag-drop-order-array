@@ -1,0 +1,13 @@
+.grid-item:hover{
+    background-color: #9393e0;
+}
+
+.grid-item {
+    margin: 1px;
+    border-radius: 5px;
+    background-color: rgba(120, 233, 68, 0.788);
+    width:100px;
+    height: 100px;
+    font-size: 30px;    
+    text-align: center;
+  }

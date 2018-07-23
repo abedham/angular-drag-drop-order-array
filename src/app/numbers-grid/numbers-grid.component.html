@@ -1,0 +1,8 @@
+<div>
+
+  <app-generate-form (sendDimention)="generateArray($event)"></app-generate-form>
+  <app-success [success]="success"></app-success>
+  <div class="flex-container">
+    <app-item-number (dragEvent)="replaceItems($event)" *ngFor="let item of items; index as i" [item]="item" [index]="i" [weight]="(1000/N)- N -20"></app-item-number>
+  </div>
+</div>

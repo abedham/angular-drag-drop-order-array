@@ -1,0 +1,10 @@
+.flex-container {
+    border:  solid 2px;
+    background-color: #2196F3;
+    width: 1000px;
+    height: 1000px;
+    margin: auto;
+    display: flex;
+    padding: 10px;
+    flex-wrap: wrap;
+  }
